@@ -1,0 +1,10 @@
+type Post
+  @model
+  @auth(rules: [{ allow: private, operations: [read] }, { allow: owner }])
+  @aws_cognito_user_pools {
+  # @aws_iam
+  id: ID!
+  title: String!
+  description: String
+  createdBy: String!
+}

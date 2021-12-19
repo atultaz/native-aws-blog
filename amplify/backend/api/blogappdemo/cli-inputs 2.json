@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "blogappdemo",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/atultiwari/Desktop/blog-app-demo/amplify/backend/api/blogappdemo/schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authblogappdemofd88f6c4"
+    }
+  }
+}
